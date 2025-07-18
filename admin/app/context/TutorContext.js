@@ -115,7 +115,7 @@ const TutorContextProvider = (props) =>{
             const data = await res.json()
             if (data.success) {
                 setProfileData(data.profileData)
-                console.log(data.profileData);
+                
             }
         } catch (error) {
             console.log(error);
