@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import AppContextProvider from './context/AppContext'
 import AdminContextProvider from './context/AdminContext'
 import TutorContextProvider from './context/TutorContext'
-import Sidebar from './components/Sidebar'
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
