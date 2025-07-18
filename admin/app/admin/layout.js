@@ -4,7 +4,7 @@ import { AdminContext } from '../context/AdminContext'
 import { AppContext } from '../context/AppContext'
 import { TutorContext } from '../context/TutorContext'
 import Sidebar from '../components/Sidebar'
-import Login from '../login/page'
+import LoginForm from '../components/LoginForm'
 import { ToastContainer } from 'react-toastify'
 
 export default function AdminLayout({ children }) {
@@ -29,7 +29,7 @@ export default function AdminLayout({ children }) {
           </div>
         </div>
       ) : (
-        <Login setAtoken={setAtoken} setTToken={setTToken} />
+        <LoginForm setAtoken={setAtoken} setTToken={setTToken} />
       )}
     </main>
   )
